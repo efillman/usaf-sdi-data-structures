@@ -12,6 +12,7 @@ var Stack = function() {
     stackData.stackStorage[`${stackData.stackPointer}`] = value;
   };
 
+<<<<<<< HEAD
   //`pop()` - Remove and return the element on the top of the stack
   stackData.pop = function() {
     if (stackData.stackPointer > -1) {
@@ -21,6 +22,11 @@ var Stack = function() {
     delete stackData.stackStorage[popPointer];
     return popValue;
     }
+=======
+  // Implement the methods below
+  someInstance.push = function(value) {
+
+>>>>>>> 2adc6bb0ed5c538a138d77833de9638dfa905041
   };
 
   //`size()` - Return the number of items on the stack

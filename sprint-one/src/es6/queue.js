@@ -50,6 +50,11 @@ class Queue {
 
   //`printQueue()` - Prints all the elements of the queue
   printQueue() {
-
+let result = ''
+    for(let i = this.back; i <= this.front; i++){
+      result += this.items[`${i}`]
+      if(this.front !== i){result += ', '}
+    }
+return result
   }
 }
